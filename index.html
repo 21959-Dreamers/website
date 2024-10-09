@@ -1,128 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>21959 Dreamers - FTC Team</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        header {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        nav {
-            background-color: #34495e;
-            padding: 0.5rem;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            margin: 0 1rem;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        .logo {
-            width: 150px;
-            height: 150px;
-            background-color: #bdc3c7;
-            margin: 1rem auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-weight: bold;
-            color: #7f8c8d;
-        }
-        .cta-button {
-            display: inline-block;
-            background-color: #3498db;
-            color: white;
-            padding: 0.5rem 1rem;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #2980b9;
-        }
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>FTC Team 21959 Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>21959 Dreamers</h1>
-        <div class="logo">Logo Placeholder</div>
+        <div class="logo">
+            <h1>FTC 21959</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+
     <main>
-        <section id="about">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to FTC 21959</h2>
+                <p>Your placeholder for an inspiring slogan or mission statement.</p>
+                <button>Explore More</button>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="about">
             <h2>About Us</h2>
-            <p>We are the 21959 Dreamers, a passionate FTC team dedicated to innovation and robotics. Our goal is to inspire and create through technology.</p>
+            <p>Placeholder text for a brief introduction about the team. Share your vision, goals, and achievements here.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <h3>Our Mission</h3>
+                    <p>Placeholder for mission statement or value proposition.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Achievements</h3>
+                    <p>Placeholder for listing key achievements.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Future Goals</h3>
+                    <p>Placeholder for outlining future aspirations.</p>
+                </div>
+            </div>
         </section>
-        <section id="team">
-            <h2>Our Team</h2>
-            <p>Meet our talented team of dreamers, engineers, and innovators who work together to bring our ideas to life.</p>
-        </section>
-        <section id="projects">
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
             <h2>Projects</h2>
-            <p>Explore our latest projects and achievements in the world of competitive robotics.</p>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="placeholder.jpg" alt="Placeholder project image">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>Short description of the project.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="placeholder.jpg" alt="Placeholder project image">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 2</h3>
+                        <p>Short description of the project.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="placeholder.jpg" alt="Placeholder project image">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>Short description of the project.</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="contact">
+
+        <!-- Team Section -->
+        <section id="team" class="team">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="placeholder.jpg" alt="Placeholder for team member">
+                    <h3>Team Member 1</h3>
+                    <p>Position or Role</p>
+                </div>
+                <div class="team-member">
+                    <img src="placeholder.jpg" alt="Placeholder for team member">
+                    <h3>Team Member 2</h3>
+                    <p>Position or Role</p>
+                </div>
+                <div class="team-member">
+                    <img src="placeholder.jpg" alt="Placeholder for team member">
+                    <h3>Team Member 3</h3>
+                    <p>Position or Role</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
             <h2>Contact Us</h2>
-            <p>Interested in learning more or joining our team? Get in touch with us!</p>
-            <a href="mailto:info@21959.com.cn" class="cta-button">Contact Us</a>
+            <p>Placeholder for contact details or a form. You can add a contact form here in the future.</p>
+            <button>Send Message</button>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 21959 Dreamers. All rights reserved.</p>
+        <p>&copy; 2024 FTC Team 21959. All rights reserved.</p>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const navLinks = document.querySelectorAll('nav a');
-            navLinks.forEach(link => {
-                link.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    const targetId = link.getAttribute('href').substring(1);
-                    const targetElement = document.getElementById(targetId);
-                    targetElement.scrollIntoView({ behavior: 'smooth' });
-                });
-            });
-        });
-    </script>
 </body>
 </html>
